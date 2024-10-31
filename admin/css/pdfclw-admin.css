@@ -1,0 +1,139 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#pdfclw_pickup_address label {
+    min-width: 115px;
+    display: inline-block;
+}
+
+#pdfclw_metaboxes .select2 {
+    width: 100% !important;
+}
+
+#pdfclw_metaboxes .pickup_location {
+    padding: 10px;
+    background: #efefef;
+    position: relative;
+}
+
+#order_data .order_data_column .form-field._pdfclw_pickup_address_2_field,
+#order_data .order_data_column .form-field._pdfclw_pickup_last_name_field,
+#order_data .order_data_column .form-field._pdfclw_pickup_phone_field,
+#order_data .order_data_column .form-field._pdfclw_pickup_postcode_field,
+#order_data .order_data_column .form-field._pdfclw_pickup_state_field,
+#order_data .order_data_column .form-field._pdfclw_pickup_latitude_field {
+    float: right;
+    clear: right;
+}
+
+#order_data .order_data_column .form-field._pdfclw_pickup_company_field {
+    width: 100%;
+    clear: both;
+}
+
+#pdfclw_pickup_address #order_data .order_data_column.pdfclw_pickup {
+    display: inline-block;
+    float: none;
+    width: 50% !important;
+}
+
+#pdfclw_pickup_address #order_data .order_data_column.pdfclw_pickup .edit_address {
+    display: block;
+}
+
+.pdfclw_premium_feature {
+    position: relative;
+    display: inline-block;
+}
+
+.pdfclw_premium_feature_note h2,
+.pdfclw_premium_feature_note p {
+    margin: 0px !important;
+    color: #000 !important;
+}
+
+.pdfclw_premium_feature_note h2 {
+    margin-bottom: 4px !important;
+}
+
+.pdfclw_premium_feature_note {
+    position: absolute;
+    width: 250px;
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    top: -172px;
+    left: -167px;
+    z-index: 99999;
+}
+
+.pdfclw_star_button:focus {
+    box-shadow: none !important;
+}
+
+.pdfclw_star_button {
+    margin-right: 5px;
+}
+
+.pdfclw_star_button svg {
+    top: 3px;
+    position: relative;
+}
+
+.pdfclw_premium_feature_note:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 186px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #fff;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -9px;
+    margin-bottom: -20px;
+}
+
+.pdfclw_premium_close {
+    position: absolute !important;
+    top: 10px;
+    right: 10px;
+    color: #575758 !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    height: 16px !important;
+}
+
+.pdfclw_premium_buynow {
+    display: inline-block !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent !important;
+    padding: .375rem .75rem !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    border-radius: .25rem !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #fff !important;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    text-decoration: none !important;
+    margin-top: 10px !important;
+    margin-bottom: 6px !important;
+}
+
+.pdfclw_premium_buynow:hover {
+    background-color: #218838 !important;
+    border-color: #1e7e34 !important;
+    color: #fff !important;
+}
